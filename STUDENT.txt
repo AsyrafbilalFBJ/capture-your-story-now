@@ -1,2 +1,2 @@
-APP_URL=https://asyrafbilalfbj.github.io/capture-your-story/
+APP_URL=https://asyrafbilalfbj.github.io/capture-your-story-now/
 MAP_SERVICE_API_KEY=<api_key>
