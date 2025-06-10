@@ -23,7 +23,7 @@ export async function reigsterServiceWorker() {
 
   try {
     const registration =
-      await navigator.serviceWorker.register('/capture-your-story/sw.bundle.js');
+      await navigator.serviceWorker.register('/capture-your-story-now/sw.bundle.js');
     console.log('Registration success', registration);
   } catch (error) {
     console.log('Registration failed', error);
