@@ -87,21 +87,21 @@
       "name": "Add Story",
       "short_name": "AddStory",
       "description": "Buat Story kamu sendiri di sini!",
-      "url": "/#/add-story",
+      "url": "/capture-your-story-now/#/add-story",
       "icons": [{ "src": "./icons/shortcuts/add-icon.svg", "sizes": "96x96" }]
     },
     {
       "name": "Homepage",
       "short_name": "Homepage",
       "description": "Lihat semua Story yang telah dibuat!",
-      "url": "/#/homepage",
+      "url": "/capture-your-story-now/#/homepage",
       "icons": [{ "src": "./icons/shortcuts/dashboard-icon.svg", "sizes": "96x96" }]
     },
     {
       "name": "Map",
       "short_name": "Map",
       "description": "Lihat semua Story di Peta!",
-      "url": "/#/map",
+      "url": "/capture-your-story-now/#/map",
       "icons": [{ "src": "./icons/shortcuts/map-icon.svg", "sizes": "96x96" }]
     }
     
