@@ -1,0 +1,2 @@
+APP_URL=https://asyrafbilalfbj.github.io/capture-your-story/
+MAP_SERVICE_API_KEY=<api_key>

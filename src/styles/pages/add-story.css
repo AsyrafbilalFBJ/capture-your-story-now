@@ -1,0 +1,48 @@
+.add-story {
+  max-width: 600px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  margin-bottom: 2rem;
+}
+
+.camera-preview {
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--background-color);
+}
+
+.camera-view,
+.photo-canvas {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.capture-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.capture-btn:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.location-group {
+  margin: 1rem 0;
+}
+
+.form-group > label {
+  color: var(--text-color);
+}

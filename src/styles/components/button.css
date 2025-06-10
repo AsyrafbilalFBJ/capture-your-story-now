@@ -1,0 +1,82 @@
+.confirm-button, .liked-button {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  border: 0;
+  background-color: var(--text-color);
+  color: var(--background-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.liked-button:disabled {
+  background-color: var(--background-color);
+  color: var(--text-color); 
+}
+
+.liked-button:hover:disabled {
+  cursor: no-drop;
+  background-color: var(--background-color);
+  color: var(--text-color); 
+}
+
+.confirm-button:hover,
+.liked-button:hover {
+  background-color: var(--primary-color);
+  color: var(--text-color); 
+}
+
+#logoutBtn {
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 100%;
+  border: 1 ;
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--text-color);
+  background-color: var(--background-color);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#logoutBtn:hover {
+  background-color: var(--text-color);
+  color: var(--background-color);
+}
+
+#delete-btn{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: fit-content;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #cf0000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+#notification-btn{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: fit-content;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #cfc100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
