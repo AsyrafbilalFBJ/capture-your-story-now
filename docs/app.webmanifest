@@ -1,0 +1,110 @@
+{
+  "name": "Capture Your Story",
+  "short_name": "CaptureYourStory",
+  "theme_color": "#469D89",
+  "background_color": "#eeeeee",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/#",
+  "icons" : [
+    {
+        "src" : "./icons/android-icon-144x144.png",
+        "type" : "image/png",
+        "sizes" : "144x144",
+        "purpose" : "any"
+    },
+    {
+        "purpose": "maskable",
+        "sizes": "48x48",
+        "src": "./icons/android-icon-48x48.png",
+        "type": "image/png"
+    },
+    {
+        "purpose": "maskable",
+        "sizes": "72x72",
+        "src": "./icons/android-icon-72x72.png",
+        "type": "image/png"
+    },
+    {
+        "purpose": "maskable",
+        "sizes": "96x96",
+        "src": "./icons/android-icon-96x96.png",
+        "type": "image/png"
+    },
+    {
+        "purpose": "maskable",
+        "sizes": "192x192",
+        "src": "./icons/android-chrome-192x192.png",
+        "type": "image/png"
+    },
+    {
+        "purpose": "maskable",
+        "sizes": "512x512",
+        "src": "./icons/android-chrome-512x512.png",
+        "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "./images/CaptureYourStory_01.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./images/CaptureYourStory_02.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./images/CaptureYourStory_03.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "./images/CaptureYourStory_04.png",
+      "sizes": "709x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./images/CaptureYourStory_05.png",
+      "sizes": "709x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "./images/CaptureYourStory_06.png",
+      "sizes": "709x1600",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Add Story",
+      "short_name": "AddStory",
+      "description": "Buat Story kamu sendiri di sini!",
+      "url": "/#/add-story",
+      "icons": [{ "src": "./icons/shortcuts/add-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Homepage",
+      "short_name": "Homepage",
+      "description": "Lihat semua Story yang telah dibuat!",
+      "url": "/#/homepage",
+      "icons": [{ "src": "./icons/shortcuts/dashboard-icon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Map",
+      "short_name": "Map",
+      "description": "Lihat semua Story di Peta!",
+      "url": "/#/map",
+      "icons": [{ "src": "./icons/shortcuts/map-icon.svg", "sizes": "96x96" }]
+    }
+    
+  ]
+        
+}
