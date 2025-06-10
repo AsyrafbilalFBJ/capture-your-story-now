@@ -5,7 +5,7 @@
   "background_color": "#eeeeee",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/#",
+  "start_url": "/capture-your-story-now/#",
   "icons" : [
     {
         "src" : "./icons/android-icon-144x144.png",
